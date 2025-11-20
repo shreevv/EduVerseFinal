@@ -1,0 +1,47 @@
+[
+  {
+    "planName": "Basic",
+    "description": "For casual learners getting started.",
+    "price": "$0",
+    "priceSpan": "<span>/ month</span>",
+    "isPopular": false,
+    "features": [
+      "Browse all public reviews",
+      "Limited to 10 course searches per day",
+      "Community forum access"
+    ],
+    "buttonClass": "button-secondary",
+    "buttonText": "Sign Up for Free"
+  },
+  {
+    "planName": "Pro",
+    "description": "For dedicated learners and professionals.",
+    "price": "$12",
+    "priceSpan": "<span>/ month</span>",
+    "isPopular": true,
+    "features": [
+      "Browse all public reviews",
+      "<b>Unlimited</b> course searches",
+      "Submit your own reviews",
+      "Early access to new features",
+      "Priority support"
+    ],
+    "buttonClass": "button-primary",
+    "buttonText": "Choose Pro"
+  },
+  {
+    "planName": "Enterprise",
+    "description": "For academic institutions and teams.",
+    "price": "Custom",
+    "priceSpan": "",
+    "isPopular": false,
+    "features": [
+      "All features from Pro plan",
+      "Team management dashboard",
+      "Bulk license management",
+      "Dedicated account manager"
+    ],
+    "buttonClass": "button-secondary",
+    "buttonText": "Contact Sales"
+  }
+]

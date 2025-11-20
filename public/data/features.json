@@ -1,0 +1,32 @@
+[
+  {
+    "icon": "school",
+    "title": "Personalized Learning",
+    "desc": "Our platform offers critical mentorship and suggestions powered by intelligent algorithms to guide your learning path."
+  },
+  {
+    "icon": "payments",
+    "title": "Affordability",
+    "desc": "We believe in accessible education. Get premium quality content and insights at a price that doesn't break the bank."
+  },
+  {
+    "icon": "handshake",
+    "title": "Industry Partnerships",
+    "desc": "We partner with various tech companies to provide you with placement opportunities after course completion."
+  },
+  {
+    "icon": "hub",
+    "title": "Innovative Technology",
+    "desc": "Using cutting-edge AI and machine learning, we provide insights that foster significant learning growth."
+  },
+  {
+    "icon": "support_agent",
+    "title": "Responsive Support",
+    "desc": "Addressing every student's query is our top priority. Our dedicated team is here to solve your problems efficiently."
+  },
+  {
+    "icon": "insights",
+    "title": "Analytics and Insights",
+    "desc": "We keep track of student reviews and course ratings to provide data-driven insights on course quality and trends."
+  }
+]

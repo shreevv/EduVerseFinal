@@ -1,0 +1,37 @@
+<%- include('partials/header') %>
+
+<div id="page-content">
+    <div class="div-title">
+        <h2>All Registered Users</h2>
+        <p>Manage your community members here.</p>
+    </div>
+
+    <div class="reviews-grid">
+        <% if(users.length > 0) { %>
+            <% users.forEach(function(user){ %>
+                <div class="review-card">
+                    <div style="width: 120px; height: 120px; margin-bottom: 15px;">
+                        <!-- Using the auto-assigned image from DB -->
+                        <img src="<%= user.image %>" 
+                             onerror="this.src='/images/avatar1.png'" 
+                             style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
+                    </div>
+                    
+                    <h3 class="course-title"><%= user.name %></h3>
+                    <p style="color: var(--text-light); margin-bottom: 15px; word-break: break-all;">
+                        <%= user.email %>
+                    </p>
+                    
+                    <div style="display: flex; gap: 10px; margin-top: auto;">
+                        <a href="/edit/<%= user._id %>" class="button-secondary" style="padding: 0.5em 1em; font-size: 0.9em;">Edit</a>
+                        <a href="/delete/<%= user._id %>" class="button-primary" style="padding: 0.5em 1em; font-size: 0.9em; background-color: #dc3545;">Delete</a>
+                    </div>
+                </div>
+            <% }) %>
+        <% } else { %>
+            <p style="text-align: center; width: 100%;">No users found. <a href="/create">Create one now</a>.</p>
+        <% } %>
+    </div>
+</div>
+
+<%- include('partials/footer') %>

@@ -1,0 +1,22 @@
+<%- include('partials/header') %>
+<div id="page-content">
+    <div class="form-container">
+        <div class="div-title" style="padding-top: 0;">
+            <h2>Create User</h2>
+        </div>
+        <form action="/create" method="post">
+            <div class="form-group">
+                <label>Full Name</label>
+                <input type="text" name="name" placeholder="e.g. John Doe" required>
+            </div>
+            <div class="form-group">
+                <label>Email Address</label>
+                <input type="email" name="email" placeholder="e.g. john@example.com" required>
+            </div>
+            <!-- Image input removed. Server assigns it automatically now. -->
+            
+            <input type="submit" value="Create User" class="button-primary">
+        </form>
+    </div>
+</div>
+<%- include('partials/footer') %>
